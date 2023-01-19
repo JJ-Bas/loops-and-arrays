@@ -6,13 +6,18 @@
 
 const names = ["Henk", "Piet", "Fred", "Joop"];
 
+console.log(names)
+
+for (i = 0; i < 4; i++) {
+    names[i] = (names[i] + "je")
+}
+
+console.log(names)
 // Verwachtte uitkomsten:
 // Vóór het script zie je de originele waardes:
 // console.log(names) geeft: ["Henk", "Piet", "Fred", "Joop"]
 // Na jouw script zie je de aangepaste waardes:
 // console.log(names) geeft: ["Henkje", "Pietje", "Fredje", "Joopje"]
-
-
 
 
 // ==========================================
@@ -23,13 +28,19 @@ const names = ["Henk", "Piet", "Fred", "Joop"];
 
 const numbers = [2, 4, 5, 29, 38];
 
+console.log(numbers)
+
+for (i = 0; i < 5; i++) {
+    numbers[i] = (numbers[i] * 2)
+}
+
+console.log(numbers)
+
 // Verwachtte uitkomsten:
 // Vóór het script zie je de originele waardes:
 // console.log(numbers) geeft: [2, 4, 5, 29, 38];
 // Na jouw script zie je de aangepaste waardes:
 // console.log(numbers) geeft: [ 4, 8, 15, 87, 76 ];
-
-
 
 
 // ==========================================
@@ -41,6 +52,17 @@ const numbers = [2, 4, 5, 29, 38];
 // ==========================================
 
 const squares = [30, 2, 8, 24, 11];
+
+console.log(squares)
+
+for (i = 0; i < 5; i++) {
+    squares[i]=("Het volume van "+squares[i]+" is "+squares[i]**3)
+}
+
+console.log(squares)
+
+console.log("why is it called 'squares' if the numbers are actually cubed")
+
 
 // Verwachtte uitkomsten:
 // Vóór het script zie je de originele waardes:
