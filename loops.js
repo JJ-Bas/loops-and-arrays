@@ -5,6 +5,7 @@
 // Hoera!
 // Hoera!
 // ==========================================
+console.log("--opdracht 1--")
 
 for (let i = 0; i < 3; i++) {
     console.log("Hoera!")
@@ -19,6 +20,7 @@ for (let i = 0; i < 3; i++) {
 // loop...
 // klaar!
 // ==========================================
+console.log("--opdracht 2--")
 
 for (let i = 0; i < 5; i++) {
     if (i < 4) {
@@ -37,6 +39,7 @@ for (let i = 0; i < 5; i++) {
 // 3 is oneven
 // .... etc.
 // 15 is oneven
+console.log("--opdracht 3--")
 
 for (let i = 0; i < 15; i++) {
     if (i % 2 === 0) {
@@ -64,6 +67,8 @@ for (let i = 0; i < 15; i++) {
 // >> 8
 // >> 9
 // ==========================================
+console.log("--opdracht 4--")
+
 for (let i = 0; i < 10; i++) {
     if (i < 3) {
         console.log("" + i)

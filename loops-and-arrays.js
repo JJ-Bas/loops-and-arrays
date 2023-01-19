@@ -3,6 +3,7 @@
 // Schrijf een script dat iedere naam in onderstaande array vervangt door een koosnaampje, door er -"je" achter te plakken.
 // Zorg ervoor dat dit ook zou werken als de array wel 100 of 200 namen zou bevatten!
 // ==========================================
+console.log("--opdracht 1--")
 
 const names = ["Henk", "Piet", "Fred", "Joop"];
 
@@ -25,6 +26,7 @@ console.log(names)
 // Schrijf een script dat ieder EVEN getal in onderstaande array met 2 vermenigvuldigd, en ieder ONEVEN getal met 3
 // Zorg ervoor dat dit ook zou werken als de array wel 100 of 200 getallen zou bevatten!
 // ==========================================
+console.log("--opdracht 2--")
 
 const numbers = [2, 4, 5, 29, 38];
 
@@ -51,6 +53,8 @@ console.log(numbers)
 // Zorg ervoor dat dit ook zou werken als de array wel 100 of 200 getallen zou bevatten!
 // ==========================================
 
+console.log("--opdracht 3--")
+
 const squares = [30, 2, 8, 24, 11];
 
 console.log(squares)
@@ -61,7 +65,7 @@ for (i = 0; i < 5; i++) {
 
 console.log(squares)
 
-console.log("why is it called 'squares' if the numbers are actually cubed")
+console.log("why is it called 'squares' if the numbers are actually cubed?")
 
 
 // Verwachtte uitkomsten:
