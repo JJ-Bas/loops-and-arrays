@@ -9,7 +9,7 @@ const names = ["Henk", "Piet", "Fred", "Joop"];
 
 console.log(names)
 
-for (let i = 0; i < 4; i++) {
+for (let i = 0; i < names.length; i++) {
     names[i] = (names[i] + "je")
 }
 
@@ -32,7 +32,7 @@ const numbers = [2, 4, 5, 29, 38];
 
 console.log(numbers)
 
-for (let i = 0; i < 5; i++) {
+for (let i = 0; i < numbers.length; i++) {
     numbers[i] = (numbers[i] * 2)
 }
 
@@ -59,7 +59,7 @@ const squares = [30, 2, 8, 24, 11];
 
 console.log(squares)
 
-for (let i = 0; i < 5; i++) {
+for (let i = 0; i < squares.length; i++) {
     squares[i]=("Het volume van "+squares[i]+" is "+squares[i]**3)
 }
 
